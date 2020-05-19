@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Roboto Condensed";
+  font-display: swap;
+  src: local("roboto_condensedbold"),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff2)
+      format("woff2"),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff)
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  font-display: swap;
+  src: local("roboto_condensedregular"),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff2)
+      format("woff2"),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff)
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  font-display: swap;
+  src: local("roboto_condensedlight"),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-light-webfont.woff2)
+      format("woff2"),
+    url(https://g.newsweek.com/www/fonts/robotocondensed-light-webfont.woff)
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Genericons";
+  font-display: swap;
+  src: local("Genericons"), url(https://g.newsweek.com/www/fonts/Genericons.eot);
+  font-display: swap;
+  src: url(https://g.newsweek.com/www/fonts/Genericons.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://g.newsweek.com/www/fonts/Genericons.woff) format("woff"),
+    url(https://g.newsweek.com/www/fonts/Genericons.ttf) format("truetype"),
+    url(https://g.newsweek.com/www/fonts/Genericons.svg#Genericons)
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lora";
+  font-display: swap;
+  src: local("loraregular"),
+    url(https://g.newsweek.com/www/fonts/lora-regular-webfont.woff2)
+      format("woff2"),
+    url(https://g.newsweek.com/www/fonts/lora-regular-webfont.woff)
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "digital-7";
+  src: url(https://g.newsweek.com/www/fonts/digital-7.woff) format("woff"),
+    url(https://g.newsweek.com/www/fonts/digital-7.ttf) format("truetype");
+}
