@@ -55,7 +55,6 @@ body {
   text-transform: uppercase;
   display: inline-block;
   padding: 6px 0 6px 0;
-
   cursor: pointer;
 }
 
@@ -66,6 +65,8 @@ body {
 }
 
 /* ----------------- CUSTOM CSS ---------------- */
+
+/* ----- HEADER & NAVBAR -----*/
 
 .header-top {
   height: 95px;
@@ -199,8 +200,12 @@ body {
   padding: 0;
 }
 
+/* ----- MAIN ----- */
+
 .main {
   height: 7000px;
+  background-color: white;
+  padding-top: 20px;
 }
 
 /* ----------------- Animations ---------------- */
