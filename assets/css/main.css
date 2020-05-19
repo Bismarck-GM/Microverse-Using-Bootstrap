@@ -1,8 +1,22 @@
+/* ----------------- MAIN BODY ---------------- */
+
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ----------------- BOOTSTRAP EDITED ---------------- */
+
 .container {
   background-color: aquamarine;
   height: 151px;
   max-width: 1310px;
   padding: 0px;
+  position: relative;
 }
 
 .container-fluid {
@@ -11,9 +25,43 @@
   max-width: 1310px;
 }
 
+.col {
+  padding: 0;
+}
+
+/* ----------------- CUSTOM CSS ---------------- */
+
 .header-top {
   height: 95px;
   padding: 20px 10px 15px;
+  margin: 0;
+}
+
+.header-top p {
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  margin: 0 0 0 20px;
+  color: white;
+}
+
+.weather {
+  position: absolute;
+  top: 12px;
+  left: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.weather-icon {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.weather-arrow {
+  height: 11px;
+  margin-left: 10px;
 }
 
 .header-middle {
@@ -29,6 +77,22 @@
 .header-middle img {
   height: 60px;
   margin: 10px auto 0;
+}
+
+.header-bottom {
+  position: relative;
+}
+
+.header-bottom::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 66px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
 }
 
 .main {
