@@ -38,7 +38,9 @@ body {
 
 .nav-link {
   color: inherit;
-  padding: 0 16px;
+  padding: 0 0px;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .nav-item {
@@ -167,6 +169,17 @@ body {
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
   box-sizing: content-box;
+}
+
+.nav-input-icon {
+  background: url(../img/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+  position: absolute;
+  top: 18px;
+  right: 82px;
 }
 
 .nav-input {
