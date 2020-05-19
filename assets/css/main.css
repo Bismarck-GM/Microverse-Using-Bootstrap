@@ -169,6 +169,34 @@ body {
   box-sizing: content-box;
 }
 
+.nav-input {
+  width: 60px;
+  height: 54px;
+  position: absolute;
+  top: 0;
+  right: 102px;
+  color: rgba(0, 0, 0, 0.55);
+  background-color: white;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border: 0 none;
+  font-size: 16px;
+  outline: none;
+  padding: 0;
+}
+
 .main {
   height: 7000px;
+}
+
+/* ----------------- Animations ---------------- */
+
+.nav-input:focus {
+  width: calc(100% - 102px);
+  text-indent: 15px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
