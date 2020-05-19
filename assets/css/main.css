@@ -12,7 +12,7 @@ body {
 /* ----------------- BOOTSTRAP EDITED ---------------- */
 
 .container {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 151px;
   max-width: 1310px;
   padding: 0px;
@@ -29,12 +29,37 @@ body {
   padding: 0;
 }
 
+.nav {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav-link {
+  color: inherit;
+  padding: 0 16px;
+}
+
+.nav-item {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-item:nth-child(n + 2) {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #d9d9d9;
+}
+
 /* ----------------- CUSTOM CSS ---------------- */
 
 .header-top {
   height: 95px;
   padding: 20px 10px 15px;
   margin: 0;
+  background-color: #f72210;
 }
 
 .header-top p {
@@ -81,6 +106,13 @@ body {
 
 .header-bottom {
   position: relative;
+  padding-right: 160px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  background-color: white;
+  border-bottom-color: #f4f5f6;
 }
 
 .header-bottom::before {
