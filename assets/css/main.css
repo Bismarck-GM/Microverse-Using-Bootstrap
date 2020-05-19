@@ -3,3 +3,25 @@ header {
   width: 100%;
   background-color: grey;
 }
+
+.container {
+  background-color: aquamarine;
+  height: 151px;
+  max-width: 1310px;
+  padding: 0px;
+}
+
+.container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1310px;
+}
+
+.header-top {
+  height: 95px;
+  padding: 20px 10px 15px;
+}
+
+.main {
+  height: 7000px;
+}
