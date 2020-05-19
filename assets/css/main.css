@@ -1,9 +1,3 @@
-header {
-  height: 151px;
-  width: 100%;
-  background-color: grey;
-}
-
 .container {
   background-color: aquamarine;
   height: 151px;
@@ -20,6 +14,21 @@ header {
 .header-top {
   height: 95px;
   padding: 20px 10px 15px;
+}
+
+.header-middle {
+  transform: translate(-50%, 0);
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-middle img {
+  height: 60px;
+  margin: 10px auto 0;
 }
 
 .main {
