@@ -47,6 +47,16 @@ body {
   text-align: center;
 }
 
+.btn {
+  position: relative;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 0 6px 0;
+
+  cursor: pointer;
+}
+
 .nav-item:nth-child(n + 2) {
   border-left-width: 1px;
   border-left-style: solid;
@@ -89,6 +99,37 @@ body {
   margin-left: 10px;
 }
 
+.btn-login {
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  padding-right: 2px;
+}
+
+.btn-subscribe {
+  font-size: 18px;
+  padding-right: 8px;
+  padding-left: 10px;
+  background-color: white;
+  color: #f72210;
+  border-radius: 0;
+  border: 0;
+}
+
+.btn-header button:last-child {
+  margin-left: 10px;
+}
+
+.btn-header button:last-child::after {
+  width: 8px;
+  height: 14px;
+  content: "";
+  display: inline-block;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
+    center / contain no-repeat;
+}
+
 .header-middle {
   transform: translate(-50%, 0);
   position: absolute;
@@ -125,6 +166,7 @@ body {
   background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
+  box-sizing: content-box;
 }
 
 .main {
