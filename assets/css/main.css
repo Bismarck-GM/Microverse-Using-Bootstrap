@@ -409,6 +409,60 @@ a {
   color: rgba(3, 3, 3, 0.5);
   margin-bottom: 10px;
 }
+
+/* ----- RIGHT COLUMN ----- */
+
+.the-debate {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.debate-top {
+  border-top: 4px solid #f92859;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  background: url(https://g.newsweek.com/www/images/opinion-headshot-bg.png)
+    center no-repeat #f72210;
+  overflow: hidden;
+  position: relative;
+  margin-right: 15px;
+}
+
+.headshot img {
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  max-width: inherit;
+  width: auto;
+}
+
+.debate-title {
+  padding-top: 3px;
+}
+
+.debate-by {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.debate-by span {
+  font-weight: normal;
+  color: #555;
+}
+
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
