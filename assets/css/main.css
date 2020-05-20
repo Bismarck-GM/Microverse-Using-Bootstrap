@@ -427,11 +427,11 @@ a {
   border-radius: 50%;
   width: 63px;
   height: 63px;
-  background: url(https://g.newsweek.com/www/images/opinion-headshot-bg.png)
-    center no-repeat #f72210;
+  background: url(../img/opinion-headshot-bg.png) center no-repeat #f72210;
   overflow: hidden;
   position: relative;
   margin-right: 15px;
+  flex: none;
 }
 
 .headshot img {
