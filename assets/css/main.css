@@ -366,15 +366,38 @@ a {
   padding: 10px 0;
 }
 
+.featured-culture-item {
+  padding: 0 10px;
+}
+
 .featured-culture-item-wrapper {
   position: relative;
 }
 
-.featured-culture-item-img {
-  background-image: url(../img/featured-culture-item-img.jpg);
-  background-position: 50%;
-  background-size: cover;
-  padding-bottom: 100%;
+.featured-culture-item-tag {
+  font: bold 13px/20px "Roboto condensed", Arial, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.featured-culture-item-tag a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.featured-culture-item-info {
+  padding: 15px 0 20px;
+}
+
+.featured-culture-item-info-title {
+  margin-bottom: 10px;
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, 0.5);
+  margin-bottom: 10px;
 }
 /* ----------------- Animations ---------------- */
 
