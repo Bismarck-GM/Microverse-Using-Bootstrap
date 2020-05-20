@@ -415,10 +415,7 @@ a {
 .the-debate {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
-}
-
-.the-debate-container {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .debate-top {
