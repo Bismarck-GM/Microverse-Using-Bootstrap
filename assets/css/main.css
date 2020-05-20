@@ -434,7 +434,7 @@ a {
 
 .debate-bottom .headshot {
   margin-right: 0;
-  margin-left: 13.5%;
+  margin-left: 15px;
 }
 
 .headshot {
@@ -459,6 +459,10 @@ a {
   height: 100%;
   max-width: inherit;
   width: auto;
+}
+
+.debate-info {
+  flex: 1;
 }
 
 .debate-title {
