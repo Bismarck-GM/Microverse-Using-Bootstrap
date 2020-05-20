@@ -555,6 +555,59 @@ a {
   margin-top: 4px;
 }
 
+.newsletter-subscribe {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.newsletter-subscribe-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+}
+
+.newsweek-icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(../img/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.newsletter-form {
+  width: 100%;
+  line-height: 32px;
+}
+
+.form-input {
+  color: #555;
+  font-size: 14px;
+  font-family: "Helvetica", sans-serf;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+}
+
+.form-submit {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  margin-top: 8px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: url(../img/newsletter-submit.svg) center/108px no-repeat #f61602;
+}
+
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
