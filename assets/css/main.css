@@ -354,6 +354,12 @@ a {
   width: 95px;
   height: 95px;
   background-image: url(../img/bolsonaro-coronavirus-rally.jpg);
+  z-index: 3;
+  position: relative;
+}
+
+.featured-culture-histories {
+  padding: 10px 0;
 }
 /* ----------------- Animations ---------------- */
 
