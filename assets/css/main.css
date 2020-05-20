@@ -23,8 +23,15 @@ h6 {
 
 h3,
 .h3 {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+}
+h4,
+.h4 {
+  font-size: 17px;
   line-height: 20px;
+  font-weight: bold;
 }
 
 a {
@@ -233,9 +240,7 @@ a {
 }
 
 .featured-stories {
-  color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
   padding-bottom: 11px;
 }
 
@@ -270,6 +275,85 @@ a {
   background-position: 50%;
   background-size: cover;
   padding-bottom: 66.7506%;
+}
+
+.block-title {
+  color: rgba(3, 3, 3, 0.4);
+  padding-bottom: 11px;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.article-wrap {
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 10px;
+}
+
+.summary {
+  font: normal 15px/20px Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.category {
+  display: block;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.featured2 article {
+  padding-bottom: 20px;
+}
+
+/* ----- LEFT COLUMN PUBLICITY ----- */
+
+.left-publicity {
+  padding-bottom: 30px;
+}
+
+.left-publicity .category {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+}
+.left-publicity .article-wrap {
+  margin: 0;
+}
+
+.publicity-info {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+/* ----- MIDDLE COLUMN ----- */
+
+.more-articles-row {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.more-articles-row-img {
+  margin: 0 15px 10px 0;
+  float: left;
+}
+
+.more-articles-row-img-background {
+  width: 95px;
+  height: 95px;
+  background-image: url(../img/bolsonaro-coronavirus-rally.jpg);
 }
 /* ----------------- Animations ---------------- */
 
