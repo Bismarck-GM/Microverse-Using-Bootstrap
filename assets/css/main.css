@@ -365,6 +365,17 @@ a {
 .featured-culture-histories {
   padding: 10px 0;
 }
+
+.featured-culture-item-wrapper {
+  position: relative;
+}
+
+.featured-culture-item-img {
+  background-image: url(../img/featured-culture-item-img.jpg);
+  background-position: 50%;
+  background-size: cover;
+  padding-bottom: 100%;
+}
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
