@@ -362,6 +362,11 @@ a {
   position: relative;
 }
 
+.featured-culture-container {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 .featured-culture-histories {
   padding: 10px 0;
 }
@@ -372,6 +377,11 @@ a {
 
 .featured-culture-item-wrapper {
   position: relative;
+}
+
+.featured-culture-item-wrapper a {
+  width: 100%;
+  height: 100%;
 }
 
 .featured-culture-item-tag {
