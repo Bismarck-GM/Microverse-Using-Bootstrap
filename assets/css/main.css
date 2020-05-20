@@ -1,4 +1,4 @@
-/* ----------------- MAIN BODY ---------------- */
+/* ----------------- MAIN SELECTORS ---------------- */
 
 body {
   background-color: #f4f5f6;
@@ -7,6 +7,30 @@ body {
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+  position: relative;
+  color: black;
+}
+
+h3,
+.h3 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
 }
 
 /* ----------------- BOOTSTRAP EDITED ---------------- */
@@ -208,6 +232,45 @@ body {
   padding-top: 20px;
 }
 
+.featured-stories {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+
+.main-col1 {
+  width: 71%;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-col2 {
+  width: 29%;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.article-col1 {
+  width: 41%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.article-col2 {
+  width: 59%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.featured-article-img {
+  background-image: url(../img/michael-flynn.jpg);
+  background-position: 50%;
+  background-size: cover;
+  padding-bottom: 66.7506%;
+}
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
