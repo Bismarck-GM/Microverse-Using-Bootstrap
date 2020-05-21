@@ -772,6 +772,20 @@ a {
   height: 62px;
 }
 
+/* ----- SUBSCRIBE BLOCK ----- */
+
+.subscribe-block {
+  position: relative;
+  padding-top: 40px;
+}
+
+.subscribe-block .block-title {
+  color: #f72210;
+}
+
+.subscribe-container {
+  padding: 30px;
+}
 /*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
 
 /* ----------------- Animations ---------------- */
