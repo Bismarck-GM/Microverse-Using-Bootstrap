@@ -305,7 +305,6 @@ a {
   padding-bottom: 11px;
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
-  padding-bottom: 11px;
 }
 
 .article-wrap {
@@ -837,6 +836,21 @@ a {
   display: inline-block;
   margin-left: 10px;
   background: url(../img/icon-arrow-right-white.svg) center / contain no-repeat;
+}
+
+.newsletter-container .subscribe-info {
+  flex: 1;
+  padding: 30px;
+  border: 1px solid #ebebeb;
+  border-left-width: 0px;
+}
+
+.newsletter-img {
+  background: url(../img/starting5-homepage.png) center center / cover no-repeat;
+  width: 48%;
+  max-width: 191px;
+  flex: none;
+  height: 100%;
 }
 
 /*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
