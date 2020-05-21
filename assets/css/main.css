@@ -707,6 +707,15 @@ a {
   overflow: hidden;
 }
 
+.editors-pick {
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.editors-pick article {
+  padding-bottom: 20px;
+}
+
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
