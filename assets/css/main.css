@@ -324,6 +324,11 @@ a {
   left: 0;
 }
 
+.category.magazine-category {
+  padding: 0 10px;
+  font: bold 16px/33px "Roboto Condensed", sans-serif;
+}
+
 .featured2 article {
   padding-bottom: 20px;
 }
@@ -618,6 +623,35 @@ a {
 .newsweek-title {
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 8px;
+}
+
+.magazine-items-container {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.magazine-feature-img {
+  background-image: url(../img/bottom-main-feature.jpg);
+}
+
+.bottom-magazine-feature-link {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 12px;
+}
+
+.bottom-magazine-feature-link::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(../img/icon-arrow-right-black.svg) center/contain no-repeat;
 }
 
 /* ----------------- Animations ---------------- */
