@@ -785,7 +785,60 @@ a {
 
 .subscribe-container {
   padding: 30px;
+  background-color: #f4f5f6;
 }
+
+.subscribe-block-images {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+
+.magazine-back {
+  background-image: url(../img/magazine-cover-back.jpg);
+  background-size: cover;
+  width: 170px;
+  height: 228px;
+}
+
+.magazine-front {
+  position: absolute;
+  background-image: url(../img/magazine-cover-front.jpg);
+  background-size: cover;
+  top: 13px;
+  left: 80px;
+  width: 170px;
+  height: 228px;
+}
+
+.subscribe-info {
+  padding-left: 30px;
+}
+
+.subscribe-info p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.subscribe-block .btn-subscribe {
+  background-color: #f72310;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 10px 10px 10px 12px;
+}
+
+.subscribe-block .btn-subscribe::after {
+  width: 8px;
+  height: 14px;
+  content: "";
+  display: inline-block;
+  margin-left: 10px;
+  background: url(../img/icon-arrow-right-white.svg) center / contain no-repeat;
+}
+
 /*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
 
 /* ----------------- Animations ---------------- */
