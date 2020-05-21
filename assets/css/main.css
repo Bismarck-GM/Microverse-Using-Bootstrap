@@ -707,14 +707,72 @@ a {
   overflow: hidden;
 }
 
-.editors-pick {
+.editors-pick-section {
   padding-top: 30px;
   margin-bottom: 20px;
 }
 
-.editors-pick article {
+.editors-pick-section article {
   padding-bottom: 20px;
 }
+
+.last-bottom-pick .block-title {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.last-bottom-pick h4 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.last-bottom-pick-side-img {
+  flex: none;
+  width: 95px;
+  margin-right: 15px;
+}
+
+.last-bottom-pick-side li:first-child .last-bottom-pick-side-img-background {
+  height: 62px;
+}
+
+.last-bottom-pick-side-img-background {
+  width: 95px;
+  height: 95px;
+  background-image: url(../img/bible.webp);
+  background-position: 50%;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+}
+
+.last-bottom-pick-side {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.last-bottom-pick-side li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.last-bottom-pick-side li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.last-bottom-pick-side li:first-child .last-bottom-pick-side-img-background {
+  height: 62px;
+}
+
+/*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
 
 /* ----------------- Animations ---------------- */
 
