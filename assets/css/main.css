@@ -562,7 +562,8 @@ a {
   padding: 20px;
 }
 
-.newsletter-subscribe-title {
+.newsletter-subscribe-title,
+.newsweek-title {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
 }
@@ -605,6 +606,18 @@ a {
   font-size: 0;
   font-family: "Roboto Condensed", sans-serif;
   background: url(../img/newsletter-submit.svg) center/108px no-repeat #f61602;
+}
+
+/* ----- MAIN - BOTTOM ----- */
+
+.bottom-section {
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+.newsweek-title {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
 }
 
 /* ----------------- Animations ---------------- */
