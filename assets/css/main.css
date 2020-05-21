@@ -862,6 +862,16 @@ a {
   height: 100%;
 }
 
+/*------FOOTER-------*/
+
+.footer-logo {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
 /*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
 
 /* ----------------- Animations ---------------- */
