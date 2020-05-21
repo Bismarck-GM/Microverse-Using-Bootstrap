@@ -777,6 +777,9 @@ a {
   position: relative;
   padding-top: 40px;
 }
+.subscribe-block > div > div {
+  margin-bottom: 40px;
+}
 
 .subscribe-block .block-title {
   color: #f72210;
@@ -838,11 +841,16 @@ a {
   background: url(../img/icon-arrow-right-white.svg) center / contain no-repeat;
 }
 
+.newsletter-container {
+  height: 100%;
+}
+
 .newsletter-container .subscribe-info {
   flex: 1;
   padding: 30px;
   border: 1px solid #ebebeb;
   border-left-width: 0px;
+  height: 100%;
 }
 
 .newsletter-img {
