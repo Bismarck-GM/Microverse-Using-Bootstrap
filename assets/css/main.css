@@ -946,6 +946,46 @@ footer .container-fluid {
 
 /*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
 
+@media screen and (max-width: 992px) {
+  .main-col1 {
+    width: 100%;
+  }
+  .main-col2 {
+    width: 100%;
+  }
+  .not-d {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article-col1 {
+    width: 45%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .article-col2 {
+    width: 55%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article-col1 {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    order: 1;
+  }
+
+  .article-col2 {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    order: 2;
+  }
+}
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
