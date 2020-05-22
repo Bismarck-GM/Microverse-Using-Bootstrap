@@ -1017,6 +1017,18 @@ footer .container-fluid {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .header-bottom,
+  .date,
+  .weather {
+    display: none;
+  }
+
+  .header-top {
+    padding: 3%;
+  }
+}
+
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
