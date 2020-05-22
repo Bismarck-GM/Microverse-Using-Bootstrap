@@ -56,8 +56,6 @@ a {
 /* ----------------- BOOTSTRAP EDITED ---------------- */
 
 .container {
-  /* background-color: aquamarine; */
-  height: 151px;
   max-width: 1310px;
   padding: 0px;
   position: relative;
@@ -200,7 +198,6 @@ a {
 }
 
 .header-bottom {
-  position: relative;
   padding-right: 160px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -946,7 +943,10 @@ footer .container-fluid {
 
 /*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
+  .main {
+    padding-top: 150px;
+  }
   .main-col1 {
     width: 100%;
   }
@@ -969,9 +969,16 @@ footer .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
   }
+  header .container {
+    position: fixed;
+    z-index: 99;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .main {
+    padding-top: 90px;
+  }
   .article-col1 {
     width: 100%;
     padding-left: 15px;
@@ -984,6 +991,19 @@ footer .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
     order: 2;
+  }
+
+  .header-top {
+    height: 65px;
+  }
+
+  .header-middle {
+    left: 20px;
+    transform: none;
+  }
+
+  .header-middle img {
+    height: 25px;
   }
 }
 /* ----------------- Animations ---------------- */
