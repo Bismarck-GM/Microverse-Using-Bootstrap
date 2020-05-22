@@ -40,6 +40,7 @@ h3,
   line-height: 24px;
   font-weight: bold;
 }
+
 h4,
 .h4 {
   font-size: 17px;
@@ -53,11 +54,11 @@ a {
   outline: 0;
 }
 
-/* ----------------- BOOTSTRAP EDITED ---------------- */
+/* -----------------BOOTSTRAP EDITED---------------- */
 
 .container {
   max-width: 1310px;
-  padding: 0px;
+  padding: 0;
   position: relative;
 }
 
@@ -87,7 +88,7 @@ a {
 
 .nav-link {
   color: inherit;
-  padding: 0 0px;
+  padding: 0;
   flex-grow: 1;
   text-align: center;
 }
@@ -115,7 +116,7 @@ a {
 
 /* ----------------- CUSTOM CSS ---------------- */
 
-/* ----- HEADER & NAVBAR -----*/
+/* ----- HEADER & NAVBAR ----- */
 
 .header-top {
   height: 95px;
@@ -178,7 +179,8 @@ a {
   content: "";
   display: inline-block;
   margin-left: 10px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
+  background:
+    url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
     center / contain no-repeat;
 }
 
@@ -356,6 +358,7 @@ a {
   z-index: 1;
   color: #3581f4;
 }
+
 .left-publicity .article-wrap {
   margin: 0;
 }
@@ -431,7 +434,6 @@ a {
   margin-bottom: 10px;
   font: bold 16px/19px "Roboto Condensed", sans-serif;
   color: rgba(3, 3, 3, 0.5);
-  margin-bottom: 10px;
 }
 
 /* ----- RIGHT COLUMN ----- */
@@ -453,11 +455,6 @@ a {
   padding-bottom: 12px;
 }
 
-.debate-bottom .headshot {
-  margin-right: 0;
-  margin-left: 15px;
-}
-
 .headshot {
   border-radius: 50%;
   width: 63px;
@@ -467,6 +464,11 @@ a {
   position: relative;
   margin-right: 15px;
   flex: none;
+}
+
+.debate-bottom .headshot {
+  margin-right: 0;
+  margin-left: 15px;
 }
 
 .headshot img {
@@ -553,11 +555,6 @@ a {
   padding-bottom: 10px;
 }
 
-.opinion-container li:first-child {
-  border-top: 0;
-  padding-top: 0;
-}
-
 .opinion-by {
   font-size: 14px;
   line-height: 21px;
@@ -597,7 +594,7 @@ a {
 .form-input {
   color: #555;
   font-size: 14px;
-  font-family: "Helvetica", sans-serf;
+  font-family: "Helvetica", sans-serif;
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
@@ -689,6 +686,7 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .magazine-category span {
   display: inline-block;
 }
@@ -738,10 +736,6 @@ a {
   margin-right: 15px;
 }
 
-.last-bottom-pick-side li:first-child .last-bottom-pick-side-img-background {
-  height: 62px;
-}
-
 .last-bottom-pick-side-img-background {
   width: 95px;
   height: 95px;
@@ -752,15 +746,28 @@ a {
   position: relative;
 }
 
-.last-bottom-pick-side {
-  font: bold 17px/21px "Roboto Condensed", sans-serif;
-  color: black;
+.footer-footer li {
+  border-right: 1px solid #d9d9d9;
+  margin: 6px 0;
+  cursor: pointer;
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .last-bottom-pick-side li {
   border-top: 1px solid #ddd;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.last-bottom-pick-side li:first-child .last-bottom-pick-side-img-background {
+  height: 62px;
+}
+
+.last-bottom-pick-side {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
 }
 
 .last-bottom-pick-side li:first-child {
@@ -774,6 +781,7 @@ a {
   position: relative;
   padding-top: 40px;
 }
+
 .subscribe-block > div > div {
   margin-bottom: 40px;
 }
@@ -846,7 +854,7 @@ a {
   flex: 1;
   padding: 30px;
   border: 1px solid #ebebeb;
-  border-left-width: 0px;
+  border-left-width: 0;
   height: 100%;
 }
 
@@ -858,7 +866,7 @@ a {
   height: 100%;
 }
 
-/*------FOOTER-------*/
+/* ------FOOTER------- */
 footer {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -872,6 +880,7 @@ footer .container-fluid {
 .footer-header-wrapper p {
   margin-bottom: 8px;
 }
+
 .footer-logo {
   display: block;
   width: 236px;
@@ -883,7 +892,7 @@ footer .container-fluid {
 .social-links {
   text-align: center;
   display: block;
-  font-family: "Fontawesome";
+  font-family: "Fontawesome", Arial, Helvetica, sans-serif;
   cursor: pointer;
   color: #666;
   margin-bottom: 12px;
@@ -927,36 +936,36 @@ footer .container-fluid {
   margin-right: 15px;
 }
 
-.footer-footer li {
-  border-right: 1px solid #d9d9d9;
-  margin: 6px 0;
-  cursor: pointer;
-  display: inline-block;
-  padding-right: 10px;
-  margin-right: 10px;
+.opinion-container li:first-child {
+  border-top: 0;
+  padding-top: 0;
 }
 
 .footer-footer li:last-child {
   border: 0;
 }
 
-/*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
+/* ------ MEDIA QUERY JUMPS AT 992px and 768px------ */
 
 @media screen and (max-width: 991px) {
   .main {
     padding-top: 150px;
   }
+
   .main-col1 {
     width: 100%;
   }
+
   .main-col2 {
     width: 100%;
   }
+
   .not-d {
     max-width: 330px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .article-col1 {
     width: 45%;
     padding-left: 15px;
@@ -968,6 +977,7 @@ footer .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
   }
+
   header .container {
     position: fixed;
     z-index: 99;
@@ -978,6 +988,7 @@ footer .container-fluid {
   .main {
     padding-top: 90px;
   }
+
   .article-col1 {
     width: 100%;
     padding-left: 15px;
@@ -1005,6 +1016,7 @@ footer .container-fluid {
     height: 25px;
   }
 }
+
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
@@ -1016,22 +1028,27 @@ footer .container-fluid {
   transition: all 0.3s ease;
 }
 
-/*-----IMG LINKS-----*/
+/* -----IMG LINKS----- */
 .featured-article-img.url1 {
   background-image: url(../img/MockupImages/mockup-img-003.jpg);
 }
+
 .featured-article-img.url2 {
   background-image: url(../img/MockupImages/mockup-img-004.jpg);
 }
+
 .featured-article-img.url3 {
   background-image: url(../img/MockupImages/mockup-img-005.jpg);
 }
+
 .featured-article-img.url4 {
   background-image: url(../img/MockupImages/mockup-img-006.jpg);
 }
+
 .featured-article-img.url5 {
   background-image: url(../img/MockupImages/mockup-img-007.jpg);
 }
+
 .featured-article-img.url6 {
   background-image: url(../img/MockupImages/mockup-img-008.jpg);
 }
@@ -1039,30 +1056,39 @@ footer .container-fluid {
 .featured-article-img.url7 {
   background-image: url(../img/MockupImages/mockup-img-040.jpg);
 }
+
 .featured-article-img.url8 {
   background-image: url(../img/MockupImages/mockup-img-041.jpg);
 }
+
 .featured-article-img.url9 {
   background-image: url(../img/MockupImages/mockup-img-042.png);
 }
+
 .featured-article-img.url10 {
   background-image: url(../img/MockupImages/mockup-img-043.jpg);
 }
+
 .featured-article-img.url11 {
   background-image: url(../img/MockupImages/mockup-img-044.jpg);
 }
+
 .featured-article-img.url12 {
   background-image: url(../img/MockupImages/mockup-img-045.jpg);
 }
+
 .featured-article-img.url13 {
   background-image: url(../img/MockupImages/mockup-img-046.jpg);
 }
+
 .featured-article-img.url14 {
   background-image: url(../img/MockupImages/mockup-img-047.jpg);
 }
+
 .featured-article-img.url15 {
   background-image: url(../img/MockupImages/mockup-img-048.jpg);
 }
+
 .featured-article-img.url16 {
   background-image: url(../img/MockupImages/mockup-img-049.jpg);
 }
@@ -1070,30 +1096,39 @@ footer .container-fluid {
 .featured-article-img.url17 {
   background-image: url(../img/MockupImages/mockup-img-053.jpg);
 }
+
 .featured-article-img.url18 {
   background-image: url(../img/MockupImages/mockup-img-054.jpg);
 }
+
 .featured-article-img.url19 {
   background-image: url(../img/MockupImages/mockup-img-058.png);
 }
+
 .featured-article-img.url20 {
   background-image: url(../img/MockupImages/mockup-img-059.jpg);
 }
+
 .featured-article-img.url21 {
   background-image: url(../img/MockupImages/mockup-img-063.jpg);
 }
+
 .featured-article-img.url22 {
   background-image: url(../img/MockupImages/mockup-img-064.jpg);
 }
+
 .featured-article-img.url23 {
   background-image: url(../img/MockupImages/mockup-img-068.jpg);
 }
+
 .featured-article-img.url24 {
   background-image: url(../img/MockupImages/mockup-img-069.jpg);
 }
+
 .featured-article-img.url25 {
   background-image: url(../img/MockupImages/mockup-img-073.jpg);
 }
+
 .featured-article-img.url26 {
   background-image: url(../img/MockupImages/mockup-img-074.jpg);
 }
@@ -1101,30 +1136,39 @@ footer .container-fluid {
 .featured-article-img.sponsor1 {
   background-image: url(../img/MockupImages/publicity2.jpg);
 }
+
 .featured-article-img.sponsor2 {
   background-image: url(../img/MockupImages/publicity3.jpg);
 }
+
 .featured-article-img.sponsor3 {
   background-image: url(../img/MockupImages/publicity4.png);
 }
+
 .featured-article-img.sponsor4 {
   background-image: url(../img/MockupImages/publicity5.jpg);
 }
+
 .featured-article-img.sponsor5 {
   background-image: url(../img/MockupImages/publicity6.png);
 }
+
 .featured-article-img.sponsor6 {
   background-image: url(../img/MockupImages/publicity7.jpg);
 }
+
 .featured-article-img.sponsor7 {
   background-image: url(../img/MockupImages/publicity8.jpg);
 }
+
 .featured-article-img.sponsor8 {
   background-image: url(../img/MockupImages/publicity9.jpg);
 }
+
 .featured-article-img.sponsor9 {
   background-image: url(../img/MockupImages/publicity10.jpg);
 }
+
 .featured-article-img.sponsor10 {
   background-image: url(../img/MockupImages/publicity11.jpg);
 }
@@ -1132,33 +1176,43 @@ footer .container-fluid {
 .more-articles-row-img-background.url1 {
   background-image: url(../img/MockupImages/mockup-img-009.jpg);
 }
+
 .more-articles-row-img-background.url2 {
   background-image: url(../img/MockupImages/mockup-img-010.jpg);
 }
+
 .more-articles-row-img-background.url3 {
   background-image: url(../img/MockupImages/mockup-img-011.jpg);
 }
+
 .more-articles-row-img-background.url4 {
   background-image: url(../img/MockupImages/mockup-img-012.jpg);
 }
+
 .more-articles-row-img-background.url5 {
   background-image: url(../img/MockupImages/mockup-img-013.jpg);
 }
+
 .more-articles-row-img-background.url6 {
   background-image: url(../img/MockupImages/mockup-img-014.jpg);
 }
+
 .more-articles-row-img-background.url7 {
   background-image: url(../img/MockupImages/mockup-img-015.jpg);
 }
+
 .more-articles-row-img-background.url8 {
   background-image: url(../img/MockupImages/mockup-img-016.jpg);
 }
+
 .more-articles-row-img-background.url9 {
   background-image: url(../img/MockupImages/mockup-img-017.jpg);
 }
+
 .more-articles-row-img-background.url10 {
   background-image: url(../img/MockupImages/mockup-img-018.jpg);
 }
+
 .more-articles-row-img-background.url11 {
   background-image: url(../img/MockupImages/mockup-img-019.jpg);
 }
