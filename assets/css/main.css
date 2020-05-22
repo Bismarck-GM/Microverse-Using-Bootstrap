@@ -292,7 +292,6 @@ a {
 }
 
 .featured-article-img {
-  background-image: url(../img/michael-flynn.jpg);
   background-position: 50%;
   background-size: cover;
   padding-bottom: 66.7506%;
@@ -1015,4 +1014,31 @@ footer .container-fluid {
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+/*-----IMG LINKS-----*/
+.featured-article-img.url1 {
+  background-image: url(../img/MockupImages/mockup-img-003.jpg);
+}
+.featured-article-img.url2 {
+  background-image: url(../img/MockupImages/mockup-img-004.jpg);
+}
+.featured-article-img.url3 {
+  background-image: url(../img/MockupImages/mockup-img-005.jpg);
+}
+.featured-article-img.url4 {
+  background-image: url(../img/MockupImages/mockup-img-006.jpg);
+}
+.featured-article-img.url5 {
+  background-image: url(../img/MockupImages/mockup-img-007.jpg);
+}
+.featured-article-img.url6 {
+  background-image: url(../img/MockupImages/mockup-img-008.jpg);
+}
+
+.featured-article-img.url {
+  background-image: url();
+}
+
+.featured-article-img.sponsor1 {
 }
