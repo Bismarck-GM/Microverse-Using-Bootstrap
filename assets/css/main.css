@@ -863,13 +863,85 @@ a {
 }
 
 /*------FOOTER-------*/
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
 
+footer .container-fluid {
+  padding: 0;
+}
+
+.footer-header-wrapper p {
+  margin-bottom: 8px;
+}
 .footer-logo {
   display: block;
   width: 236px;
   height: 36px;
   margin-right: 15px;
   margin-bottom: 12px;
+}
+
+.social-links {
+  text-align: center;
+  display: block;
+  font-family: "Fontawesome";
+  cursor: pointer;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.social-links i {
+  font-style: normal;
+}
+
+.social-links li:nth-child(n + 2) {
+  margin-left: 10px;
+}
+
+.fa-facebook-square,
+.fa-instagram {
+  font-size: 31px;
+}
+
+.fa-twitter {
+  font-size: 30px;
+}
+
+.fa-tumblr {
+  font-size: 27px;
+}
+
+.fa-linkedin {
+  font-size: 33px;
+}
+
+.footer-footer {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.footer-editions-link strong {
+  margin-top: 6px;
+  margin-right: 15px;
+}
+
+.footer-footer li {
+  border-right: 1px solid #d9d9d9;
+  margin: 6px 0;
+  cursor: pointer;
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.footer-footer li:last-child {
+  border: 0;
 }
 
 /*------ MEDIA QUERY JUMPS AT 992px and 768px------*/
