@@ -990,6 +990,12 @@ footer .container-fluid {
   }
 }
 
+@media screen and (min-width: 500px) {
+  .featured-stories {
+    padding-top: 20px;
+  }
+}
+
 /* ----------------- Animations ---------------- */
 
 .nav-input:focus {
