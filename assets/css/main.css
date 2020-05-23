@@ -990,7 +990,7 @@ footer .container-fluid {
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 767px) {
   .featured-stories,
   .opinion-section {
     padding-top: 20px;
