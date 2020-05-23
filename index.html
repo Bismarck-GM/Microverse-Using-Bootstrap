@@ -31,21 +31,27 @@
       <div class="container">
         <div class="header-top row">
           <div
-            class="col justify-content-start align-items-end d-md-flex d-sm-none date"
+            class="col justify-content-start align-items-end d-none d-lg-flex date"
           >
             <p>Tue, May 19, 2020</p>
           </div>
           <div
             class="col d-flex justify-content-end align-items-end btn-header"
           >
-            <button class="btn btn-login">
+            <i class="fas fa-user d-md-none"></i>
+            <button class="btn btn-login d-none d-md-block">
               Login
             </button>
-            <button class="btn btn-subscribe">
+            <button class="btn btn-subscribe d-none d-md-block">
               SUBSCRIBE
             </button>
+            <button class="btn bg-warning text-dark btn-subscribe d-md-none">
+                Add free trial
+              </button>
+            <i class="fas fa-bars d-lg-none"></i>
           </div>
-          <div class="weather d-md-flex d-sm-none">
+          
+          <div class="weather d-none d-lg-flex">
             <img
               src="./assets/img/Weather-IMG.png"
               alt="Weather Icon"
@@ -65,7 +71,7 @@
           <img src="./assets/img/newsweek-logo.svg" alt="" />
         </div>
 
-        <nav class="header-bottom d-sm-none d-lg-block position-relative">
+        <nav class="header-bottom d-none d-lg-block position-relative">
           <div class="flex justify-content-center">
             <ul class="nav">
               <li class="nav-item">
@@ -97,793 +103,780 @@
       </div>
     </header>
     <!-- Whole Page Container without Nav -->
-    <div class="main container-fluid">
+    <div class="main container-fluid p-sm-0 px-sm-3 pt-lg-5">
       <!-- Top Section -->
       <div class="column-wrapper row">
-        <div class="main-col1">
-          <div class="sticky-container">
-            <div class="row">
-              <div class="article-col1">
-                <div class="sticky-container">
-                  <div class="featured-stories">
-                    <div class="featured2">
-                      <div class="block-title">
-                        FEATURED STORIES
-                      </div>
-                      <article>
-                        <div class="article-wrap">
-                          <div class="category">
-                            <a href="#">World</a>
-                          </div>
-                          <div class="featured-article-img url1"></div>
-                        </div>
-                        <h3>
-                          <a href="#">
-                            Iran Wants to Partner with Iraq to Expel U.S. from
-                            Middle East
-                          </a>
-                        </h3>
-                        <div class="summary">
-                          As the U.S. and Israel suggest Iran is backing down,
-                          the Islamic Republic is looking to boost its regional
-                          ties.
-                        </div>
-                      </article>
-                      <article>
-                        <div class="article-wrap">
-                          <div class="category">
-                            <a href="#">World</a>
-                          </div>
-                          <div class="featured-article-img url2"></div>
-                        </div>
-                        <h3>
-                          <a href="#">
-                            Iran Wants to Partner with Iraq to Expel U.S. from
-                            Middle East
-                          </a>
-                        </h3>
-                        <div class="summary">
-                          As the U.S. and Israel suggest Iran is backing down,
-                          the Islamic Republic is looking to boost its regional
-                          ties.
-                        </div>
-                      </article>
-                      <article>
-                        <div class="article-wrap">
-                          <div class="category">
-                            <a href="#">World</a>
-                          </div>
-                          <div class="featured-article-img url3"></div>
-                        </div>
-                        <h3>
-                          <a href="#">
-                            Iran Wants to Partner with Iraq to Expel U.S. from
-                            Middle East
-                          </a>
-                        </h3>
-                        <div class="summary">
-                          As the U.S. and Israel suggest Iran is backing down,
-                          the Islamic Republic is looking to boost its regional
-                          ties.
-                        </div>
-                      </article>
-                      <article>
-                        <div class="article-wrap">
-                          <div class="category">
-                            <a href="#">World</a>
-                          </div>
-                          <div class="featured-article-img url4"></div>
-                        </div>
-                        <h3>
-                          <a href="#">
-                            Iran Wants to Partner with Iraq to Expel U.S. from
-                            Middle East
-                          </a>
-                        </h3>
-                        <div class="summary">
-                          As the U.S. and Israel suggest Iran is backing down,
-                          the Islamic Republic is looking to boost its regional
-                          ties.
-                        </div>
-                      </article>
-                      <article>
-                        <div class="article-wrap">
-                          <div class="category">
-                            <a href="#">World</a>
-                          </div>
-                          <div class="featured-article-img url5"></div>
-                        </div>
-                        <h3>
-                          <a href="#">
-                            Iran Wants to Partner with Iraq to Expel U.S. from
-                            Middle East
-                          </a>
-                        </h3>
-                        <div class="summary">
-                          As the U.S. and Israel suggest Iran is backing down,
-                          the Islamic Republic is looking to boost its regional
-                          ties.
-                        </div>
-                      </article>
-                    </div>
-                  </div>
-                  <div class="left-publicity d-md-block d-sm-none">
-                    <div class="article-wrap">
-                      <div class="category">
-                        <a href="#">SPONSORED INSIGHT</a>
-                      </div>
-                      <div class="featured-article-img sponsor1"></div>
-                    </div>
-                    <div class="publicity-info">
-                      <h3>
-                        <a href="#">
-                          Iran Wants to Partner with Iraq to Expel U.S. from
-                          Middle East
-                        </a>
-                      </h3>
-                      <div class="summary">
-                        As the U.S. and Israel suggest Iran is backing down, the
-                        Islamic Republic is looking to boost its regional ties.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="left-publicity d-md-block d-sm-none">
-                    <div class="article-wrap">
-                      <div class="category">
-                        <a href="#">SPONSORED INSIGHT</a>
-                      </div>
-                      <div class="featured-article-img sponsor2"></div>
-                    </div>
-                    <div class="publicity-info">
-                      <h3>
-                        <a href="#">
-                          Iran Wants to Partner with Iraq to Expel U.S. from
-                          Middle East
-                        </a>
-                      </h3>
-                      <div class="summary">
-                        As the U.S. and Israel suggest Iran is backing down, the
-                        Islamic Republic is looking to boost its regional ties.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="left-publicity d-md-block d-sm-none">
-                    <div class="article-wrap">
-                      <div class="category">
-                        <a href="#">SPONSORED INSIGHT</a>
-                      </div>
-                      <div class="featured-article-img sponsor3"></div>
-                    </div>
-                    <div class="publicity-info">
-                      <h3>
-                        <a href="#">
-                          Iran Wants to Partner with Iraq to Expel U.S. from
-                          Middle East
-                        </a>
-                      </h3>
-                      <div class="summary">
-                        As the U.S. and Israel suggest Iran is backing down, the
-                        Islamic Republic is looking to boost its regional ties.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="left-publicity d-md-block d-sm-none">
-                    <div class="article-wrap">
-                      <div class="category">
-                        <a href="#">SPONSORED INSIGHT</a>
-                      </div>
-                      <div class="featured-article-img sponsor4"></div>
-                    </div>
-                    <div class="publicity-info">
-                      <h3>
-                        <a href="#">
-                          Iran Wants to Partner with Iraq to Expel U.S. from
-                          Middle East
-                        </a>
-                      </h3>
-                      <div class="summary">
-                        As the U.S. and Israel suggest Iran is backing down, the
-                        Islamic Republic is looking to boost its regional ties.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="left-publicity d-md-block d-sm-none">
-                    <div class="article-wrap">
-                      <div class="category">
-                        <a href="#">SPONSORED INSIGHT</a>
-                      </div>
-                      <div class="featured-article-img sponsor5"></div>
-                    </div>
-                    <div class="publicity-info">
-                      <h3>
-                        <a href="#">
-                          Iran Wants to Partner with Iraq to Expel U.S. from
-                          Middle East
-                        </a>
-                      </h3>
-                      <div class="summary">
-                        As the U.S. and Israel suggest Iran is backing down, the
-                        Islamic Republic is looking to boost its regional ties.
-                      </div>
-                    </div>
-                  </div>
+        <div class="featured2 top-story pt-lg-0 order-lg-2 order-md-2 order-sm-1 col-lg-5 col-md-7">
+            <div class="sticky-container pt-lg-0">
+                <div class="block-title">
+                    TOP STORY
                 </div>
+                <article>
+                    <div class="article-wrap">
+                    <div class="category">
+                        <a href="#">World</a>
+                    </div>
+                    <div
+                        class="featured-article-img url6 main-column-image"
+                    ></div>
+                    </div>
+                    <h3>
+                    <a href="#">
+                        Iran Wants to Partner with Iraq to Expel U.S. from
+                        Middle East
+                    </a>
+                    </h3>
+                    <div class="summary">
+                    As the U.S. and Israel suggest Iran is backing down,
+                    the Islamic Republic is looking to boost its
+                    regional ties.
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="featured-stories pt-lg-0 order-lg-1 order-md-1 order-sm-2 col-lg-4 col-md-5">
+            <div class="featured2">
+              <div class="block-title">
+                FEATURED STORIES
               </div>
-              <div class="article-col2">
-                <div class="sticky-container">
-                  <div class="d-flex flex-column">
-                    <div class="d-block featured-stories order-1">
-                      <div class="featured2">
-                        <div class="block-title">
-                          TOP STORY
-                        </div>
-                        <article>
-                          <div class="article-wrap">
-                            <div class="category">
-                              <a href="#">World</a>
-                            </div>
-                            <div
-                              class="featured-article-img url6 main-column-image"
-                            ></div>
-                          </div>
-                          <h3>
-                            <a href="#">
-                              Iran Wants to Partner with Iraq to Expel U.S. from
-                              Middle East
-                            </a>
-                          </h3>
-                          <div class="summary">
-                            As the U.S. and Israel suggest Iran is backing down,
-                            the Islamic Republic is looking to boost its
-                            regional ties.
-                          </div>
-                        </article>
-                      </div>
-                    </div>
-                    <div class="d-block featured-more order-3">
-                      <div class="featured2">
-                        <div class="block-title">
-                          MORE STORIES
-                        </div>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url1"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url2"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url3"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url4"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url5"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url6"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url7"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url8"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url9"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url10"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                        <article class="more-articles-row">
-                          <div class="more-articles-row-img">
-                            <a href="#"
-                              ><div
-                                class="more-articles-row-img-background url11"
-                              ></div
-                            ></a>
-                          </div>
-                          <h4>
-                            <a href="#"
-                              >Brazil's Bolsonaro Expands Use of Controversial
-                              Hydroxychloroquine</a
-                            >
-                          </h4>
-                          <div class="summary">
-                            Brazil has the third-highest number of confirmed
-                            coronavirus cases of any nation, and its daily death
-                            toll hit a record high of 1,179.
-                          </div>
-                        </article>
-                      </div>
-                    </div>
-                    <div class="d-block featured-culture-histories order-2">
-                      <div class="block-title">
-                        HEROES OF THE PANDEMIC
-                      </div>
-                      <div class="d-flex featured-culture-container">
-                        <div class="featured-culture-item">
-                          <div class="featured-culture-item-wrapper">
-                            <a href="#">
-                              <img
-                                src="assets/img/featured-culture-item-img.jpg"
-                                class="img-fluid"
-                                alt="Culture Picture"
-                              />
-                            </a>
-                            <div class="featured-culture-item-tag">
-                              <a href="#">Pandemic Heroes</a>
-                            </div>
-                          </div>
-                          <div class="featured-culture-item-info">
-                            <div class="featured-culture-item-info-title">
-                              <a href="#"
-                                >The Doctors and Nurses Crossing the Border
-                                Daily to Help Asylum Seekers</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                        <div class="featured-culture-item">
-                          <div class="featured-culture-item-wrapper">
-                            <a href="#">
-                              <img
-                                src="assets/img/MockupImages/mockup-img-021.jpg"
-                                class="img-fluid"
-                                alt="Culture Picture"
-                              />
-                            </a>
-                            <div class="featured-culture-item-tag">
-                              <a href="#">Pandemic Heroes</a>
-                            </div>
-                          </div>
-                          <div class="featured-culture-item-info">
-                            <div class="featured-culture-item-info-title">
-                              <a href="#"
-                                >The Doctors and Nurses Crossing the Border
-                                Daily to Help Asylum Seekers</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                        <div class="featured-culture-item">
-                          <div class="featured-culture-item-wrapper">
-                            <a href="#">
-                              <img
-                                src="assets/img/MockupImages/mockup-img-022.jpg"
-                                class="img-fluid"
-                                alt="Culture Picture"
-                              />
-                            </a>
-                            <div class="featured-culture-item-tag">
-                              <a href="#">Pandemic Heroes</a>
-                            </div>
-                          </div>
-                          <div class="featured-culture-item-info">
-                            <div class="featured-culture-item-info-title">
-                              <a href="#"
-                                >The Doctors and Nurses Crossing the Border
-                                Daily to Help Asylum Seekers</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="block-title">
-                        CULTURE & TRAVEL
-                      </div>
-                      <div class="d-flex featured-culture-container">
-                        <div class="featured-culture-item">
-                          <div class="featured-culture-item-wrapper">
-                            <a href="#">
-                              <img
-                                src="assets/img/MockupImages/mockup-img-023.jpg"
-                                class="img-fluid"
-                                alt="Culture Picture"
-                              />
-                            </a>
-                            <div class="featured-culture-item-tag">
-                              <a href="#">Pandemic Heroes</a>
-                            </div>
-                          </div>
-                          <div class="featured-culture-item-info">
-                            <div class="featured-culture-item-info-title">
-                              <a href="#"
-                                >The Doctors and Nurses Crossing the Border
-                                Daily to Help Asylum Seekers</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                        <div class="featured-culture-item">
-                          <div class="featured-culture-item-wrapper">
-                            <a href="#">
-                              <img
-                                src="assets/img/MockupImages/mockup-img-024.jpg"
-                                class="img-fluid"
-                                alt="Culture Picture"
-                              />
-                            </a>
-                            <div class="featured-culture-item-tag">
-                              <a href="#">Pandemic Heroes</a>
-                            </div>
-                          </div>
-                          <div class="featured-culture-item-info">
-                            <div class="featured-culture-item-info-title">
-                              <a href="#"
-                                >The Doctors and Nurses Crossing the Border
-                                Daily to Help Asylum Seekers</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                        <div class="featured-culture-item">
-                          <div class="featured-culture-item-wrapper">
-                            <a href="#">
-                              <img
-                                src="assets/img/MockupImages/mockup-img-025.jpg"
-                                class="img-fluid"
-                                alt="Culture Picture"
-                              />
-                            </a>
-                            <div class="featured-culture-item-tag">
-                              <a href="#">Pandemic Heroes</a>
-                            </div>
-                          </div>
-                          <div class="featured-culture-item-info">
-                            <div class="featured-culture-item-info-title">
-                              <a href="#"
-                                >The Doctors and Nurses Crossing the Border
-                                Daily to Help Asylum Seekers</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+              <article>
+                <div class="article-wrap">
+                  <div class="category">
+                    <a href="#">World</a>
                   </div>
+                  <div class="featured-article-img url1"></div>
+                </div>
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down,
+                  the Islamic Republic is looking to boost its regional
+                  ties.
+                </div>
+              </article>
+              <article>
+                <div class="article-wrap">
+                  <div class="category">
+                    <a href="#">World</a>
+                  </div>
+                  <div class="featured-article-img url2"></div>
+                </div>
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down,
+                  the Islamic Republic is looking to boost its regional
+                  ties.
+                </div>
+              </article>
+              <article>
+                <div class="article-wrap">
+                  <div class="category">
+                    <a href="#">World</a>
+                  </div>
+                  <div class="featured-article-img url3"></div>
+                </div>
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down,
+                  the Islamic Republic is looking to boost its regional
+                  ties.
+                </div>
+              </article>
+              <article>
+                <div class="article-wrap">
+                  <div class="category">
+                    <a href="#">World</a>
+                  </div>
+                  <div class="featured-article-img url4"></div>
+                </div>
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down,
+                  the Islamic Republic is looking to boost its regional
+                  ties.
+                </div>
+              </article>
+              <article>
+                <div class="article-wrap">
+                  <div class="category">
+                    <a href="#">World</a>
+                  </div>
+                  <div class="featured-article-img url5"></div>
+                </div>
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down,
+                  the Islamic Republic is looking to boost its regional
+                  ties.
+                </div>
+              </article>
+            </div>
+        </div>
+        <div class="left-publicity-container order-lg-4 order-sm-4 order-sm-3 col-lg-4 col-md-5">
+            <div class="left-publicity d-md-block d-sm-none">
+              <div class="article-wrap">
+                <div class="category">
+                  <a href="#">SPONSORED INSIGHT</a>
+                </div>
+                <div class="featured-article-img sponsor1"></div>
+              </div>
+              <div class="publicity-info">
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down, the
+                  Islamic Republic is looking to boost its regional ties.
                 </div>
               </div>
             </div>
-          </div>
+            <div class="left-publicity d-md-block d-sm-none">
+              <div class="article-wrap">
+                <div class="category">
+                  <a href="#">SPONSORED INSIGHT</a>
+                </div>
+                <div class="featured-article-img sponsor2"></div>
+              </div>
+              <div class="publicity-info">
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down, the
+                  Islamic Republic is looking to boost its regional ties.
+                </div>
+              </div>
+            </div>
+            <div class="left-publicity d-md-block d-sm-none">
+              <div class="article-wrap">
+                <div class="category">
+                  <a href="#">SPONSORED INSIGHT</a>
+                </div>
+                <div class="featured-article-img sponsor3"></div>
+              </div>
+              <div class="publicity-info">
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down, the
+                  Islamic Republic is looking to boost its regional ties.
+                </div>
+              </div>
+            </div>
+            <div class="left-publicity d-md-block d-sm-none">
+              <div class="article-wrap">
+                <div class="category">
+                  <a href="#">SPONSORED INSIGHT</a>
+                </div>
+                <div class="featured-article-img sponsor4"></div>
+              </div>
+              <div class="publicity-info">
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down, the
+                  Islamic Republic is looking to boost its regional ties.
+                </div>
+              </div>
+            </div>
+            <div class="left-publicity d-md-block d-sm-none">
+              <div class="article-wrap">
+                <div class="category">
+                  <a href="#">SPONSORED INSIGHT</a>
+                </div>
+                <div class="featured-article-img sponsor5"></div>
+              </div>
+              <div class="publicity-info">
+                <h3>
+                  <a href="#">
+                    Iran Wants to Partner with Iraq to Expel U.S. from
+                    Middle East
+                  </a>
+                </h3>
+                <div class="summary">
+                  As the U.S. and Israel suggest Iran is backing down, the
+                  Islamic Republic is looking to boost its regional ties.
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="main-col2">
-          <div class="sticky-container">
-            <div class="the-debate-section">
-              <div class="the-debate-container">
+        <div class="the-debate-section pt-lg-0 order-lg-3 order-md-5 order-sm-3 col-lg-3 col-md-12">
+            <div class="sticky-container pt-lg-0">
+                <div class="the-debate-container">
                 <div class="block-title">
-                  THE DEBATE
+                    THE DEBATE
                 </div>
                 <div class="debate-item debate-top">
-                  <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center">
                     <div class="headshot">
-                      <a href="#">
+                        <a href="#">
                         <img
-                          src="assets/img/MockupImages/mockup-img-026.png"
-                          alt="Caroline"
+                            src="assets/img/MockupImages/mockup-img-026.png"
+                            alt="Caroline"
                         />
-                      </a>
+                        </a>
                     </div>
                     <div class="debate-info">
-                      <div class="debate-title">
+                        <div class="debate-title">
                         <a href="#">Capitalism Creates Social Justice</a>
-                      </div>
-                      <div class="debate-by">
+                        </div>
+                        <div class="debate-by">
                         <span>By</span>
                         Dinesh D'Souza
-                      </div>
+                        </div>
                     </div>
-                  </div>
+                    </div>
                 </div>
                 <div class="decoration position-relative">
-                  <div class="versus">
+                    <div class="versus">
                     VS
-                  </div>
+                    </div>
                 </div>
                 <div class="debate-item debate-bottom">
-                  <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center">
                     <div class="headshot order-2">
-                      <a href="#">
+                        <a href="#">
                         <img
-                          src="assets/img/MockupImages/mockup-img-027.png"
-                          alt="Caroline"
+                            src="assets/img/MockupImages/mockup-img-027.png"
+                            alt="Caroline"
                         />
-                      </a>
+                        </a>
                     </div>
                     <div class="debate-info order-1">
-                      <div class="debate-title">
+                        <div class="debate-title">
                         <a href="#">Capitalism Creates Social Justice</a>
-                      </div>
-                      <div class="debate-by">
+                        </div>
+                        <div class="debate-by">
                         <span>By</span>
                         Dinesh D'Souza
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            <div class="opinion-section">
+                <div class="opinion-container">
+                    <div class="block-title">
+                    OPINION
+                    </div>
+                        <ul>
+                        <li class="d-flex">
+                            <div class="headshot">
+                            <a href="#">
+                                <img
+                                src="assets/img/MockupImages/mockup-img-028.png"
+                                alt="Caroline"
+                                />
+                            </a>
+                            </div>
+                            <div class="opinion-info">
+                            <a href="#"
+                                >No Matter How Dire the Coronavirus Threat, Fear Is Not
+                                the Way Out</a
+                            >
+                            <div class="opinion-by">BY ZACHARY KARABELL</div>
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <div class="headshot">
+                            <a href="#">
+                                <img
+                                src="assets/img/MockupImages/mockup-img-029.png"
+                                alt="Caroline"
+                                />
+                            </a>
+                            </div>
+                            <div class="opinion-info">
+                            <a href="#"
+                                >No Matter How Dire the Coronavirus Threat, Fear Is Not
+                                the Way Out</a
+                            >
+                            <div class="opinion-by">BY ZACHARY KARABELL</div>
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <div class="headshot">
+                            <a href="#">
+                                <img
+                                src="assets/img/MockupImages/mockup-img-030.png"
+                                alt="Caroline"
+                                />
+                            </a>
+                            </div>
+                            <div class="opinion-info">
+                            <a href="#"
+                                >No Matter How Dire the Coronavirus Threat, Fear Is Not
+                                the Way Out</a
+                            >
+                            <div class="opinion-by">BY ZACHARY KARABELL</div>
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <div class="headshot">
+                            <a href="#">
+                                <img
+                                src="assets/img/MockupImages/mockup-img-031.png"
+                                alt="Caroline"
+                                />
+                            </a>
+                            </div>
+                            <div class="opinion-info">
+                            <a href="#"
+                                >No Matter How Dire the Coronavirus Threat, Fear Is Not
+                                the Way Out</a
+                            >
+                            <div class="opinion-by">BY ZACHARY KARABELL</div>
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <div class="headshot">
+                            <a href="#">
+                                <img
+                                src="assets/img/MockupImages/mockup-img-032.png"
+                                alt="Caroline"
+                                />
+                            </a>
+                            </div>
+                            <div class="opinion-info">
+                            <a href="#"
+                                >No Matter How Dire the Coronavirus Threat, Fear Is Not
+                                the Way Out</a
+                            >
+                            <div class="opinion-by">BY ZACHARY KARABELL</div>
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <div class="headshot">
+                            <a href="#">
+                                <img
+                                src="assets/img/MockupImages/mockup-img-033.png"
+                                alt="Caroline"
+                                />
+                            </a>
+                            </div>
+                            <div class="opinion-info">
+                            <a href="#"
+                                >No Matter How Dire the Coronavirus Threat, Fear Is Not
+                                the Way Out</a
+                            >
+                            <div class="opinion-by">BY ZACHARY KARABELL</div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-more order-lg-5 order-md-4 order-sm-5 col-lg-5 col-md-7">
+            <div class="featured2">
+              <div class="block-title">
+                MORE STORIES
+              </div>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url1"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url2"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url3"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url4"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url5"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url6"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url7"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url8"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url9"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url10"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+              <article class="more-articles-row">
+                <div class="more-articles-row-img">
+                  <a href="#"
+                    ><div
+                      class="more-articles-row-img-background url11"
+                    ></div
+                  ></a>
+                </div>
+                <h4>
+                  <a href="#"
+                    >Brazil's Bolsonaro Expands Use of Controversial
+                    Hydroxychloroquine</a
+                  >
+                </h4>
+                <div class="summary">
+                  Brazil has the third-highest number of confirmed
+                  coronavirus cases of any nation, and its daily death
+                  toll hit a record high of 1,179.
+                </div>
+              </article>
+            </div>
+            <div class="featured-culture-histories">
+                <div class="block-title">
+                  HEROES OF THE PANDEMIC
+                </div>
+                <div class="d-flex featured-culture-container">
+                  <div class="featured-culture-item">
+                    <div class="featured-culture-item-wrapper">
+                      <a href="#">
+                        <img
+                          src="assets/img/featured-culture-item-img.jpg"
+                          class="img-fluid"
+                          alt="Culture Picture"
+                        />
+                      </a>
+                      <div class="featured-culture-item-tag">
+                        <a href="#">Pandemic Heroes</a>
+                      </div>
+                    </div>
+                    <div class="featured-culture-item-info">
+                      <div class="featured-culture-item-info-title">
+                        <a href="#"
+                          >The Doctors and Nurses Crossing the Border
+                          Daily to Help Asylum Seekers</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="featured-culture-item">
+                    <div class="featured-culture-item-wrapper">
+                      <a href="#">
+                        <img
+                          src="assets/img/MockupImages/mockup-img-021.jpg"
+                          class="img-fluid"
+                          alt="Culture Picture"
+                        />
+                      </a>
+                      <div class="featured-culture-item-tag">
+                        <a href="#">Pandemic Heroes</a>
+                      </div>
+                    </div>
+                    <div class="featured-culture-item-info">
+                      <div class="featured-culture-item-info-title">
+                        <a href="#"
+                          >The Doctors and Nurses Crossing the Border
+                          Daily to Help Asylum Seekers</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="featured-culture-item">
+                    <div class="featured-culture-item-wrapper">
+                      <a href="#">
+                        <img
+                          src="assets/img/MockupImages/mockup-img-022.jpg"
+                          class="img-fluid"
+                          alt="Culture Picture"
+                        />
+                      </a>
+                      <div class="featured-culture-item-tag">
+                        <a href="#">Pandemic Heroes</a>
+                      </div>
+                    </div>
+                    <div class="featured-culture-item-info">
+                      <div class="featured-culture-item-info-title">
+                        <a href="#"
+                          >The Doctors and Nurses Crossing the Border
+                          Daily to Help Asylum Seekers</a
+                        >
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="opinion-section">
-              <div class="opinion-container">
                 <div class="block-title">
-                  OPINION
+                  CULTURE & TRAVEL
                 </div>
-                <ul>
-                  <li class="d-flex">
-                    <div class="headshot">
+                <div class="d-flex featured-culture-container">
+                  <div class="featured-culture-item">
+                    <div class="featured-culture-item-wrapper">
                       <a href="#">
                         <img
-                          src="assets/img/MockupImages/mockup-img-028.png"
-                          alt="Caroline"
+                          src="assets/img/MockupImages/mockup-img-023.jpg"
+                          class="img-fluid"
+                          alt="Culture Picture"
                         />
                       </a>
+                      <div class="featured-culture-item-tag">
+                        <a href="#">Pandemic Heroes</a>
+                      </div>
                     </div>
-                    <div class="opinion-info">
-                      <a href="#"
-                        >No Matter How Dire the Coronavirus Threat, Fear Is Not
-                        the Way Out</a
-                      >
-                      <div class="opinion-by">BY ZACHARY KARABELL</div>
+                    <div class="featured-culture-item-info">
+                      <div class="featured-culture-item-info-title">
+                        <a href="#"
+                          >The Doctors and Nurses Crossing the Border
+                          Daily to Help Asylum Seekers</a
+                        >
+                      </div>
                     </div>
-                  </li>
-                  <li class="d-flex">
-                    <div class="headshot">
+                  </div>
+                  <div class="featured-culture-item">
+                    <div class="featured-culture-item-wrapper">
                       <a href="#">
                         <img
-                          src="assets/img/MockupImages/mockup-img-029.png"
-                          alt="Caroline"
+                          src="assets/img/MockupImages/mockup-img-024.jpg"
+                          class="img-fluid"
+                          alt="Culture Picture"
                         />
                       </a>
+                      <div class="featured-culture-item-tag">
+                        <a href="#">Pandemic Heroes</a>
+                      </div>
                     </div>
-                    <div class="opinion-info">
-                      <a href="#"
-                        >No Matter How Dire the Coronavirus Threat, Fear Is Not
-                        the Way Out</a
-                      >
-                      <div class="opinion-by">BY ZACHARY KARABELL</div>
+                    <div class="featured-culture-item-info">
+                      <div class="featured-culture-item-info-title">
+                        <a href="#"
+                          >The Doctors and Nurses Crossing the Border
+                          Daily to Help Asylum Seekers</a
+                        >
+                      </div>
                     </div>
-                  </li>
-                  <li class="d-flex">
-                    <div class="headshot">
+                  </div>
+                  <div class="featured-culture-item">
+                    <div class="featured-culture-item-wrapper">
                       <a href="#">
                         <img
-                          src="assets/img/MockupImages/mockup-img-030.png"
-                          alt="Caroline"
+                          src="assets/img/MockupImages/mockup-img-025.jpg"
+                          class="img-fluid"
+                          alt="Culture Picture"
                         />
                       </a>
+                      <div class="featured-culture-item-tag">
+                        <a href="#">Pandemic Heroes</a>
+                      </div>
                     </div>
-                    <div class="opinion-info">
-                      <a href="#"
-                        >No Matter How Dire the Coronavirus Threat, Fear Is Not
-                        the Way Out</a
-                      >
-                      <div class="opinion-by">BY ZACHARY KARABELL</div>
+                    <div class="featured-culture-item-info">
+                      <div class="featured-culture-item-info-title">
+                        <a href="#"
+                          >The Doctors and Nurses Crossing the Border
+                          Daily to Help Asylum Seekers</a
+                        >
+                      </div>
                     </div>
-                  </li>
-                  <li class="d-flex">
-                    <div class="headshot">
-                      <a href="#">
-                        <img
-                          src="assets/img/MockupImages/mockup-img-031.png"
-                          alt="Caroline"
-                        />
-                      </a>
-                    </div>
-                    <div class="opinion-info">
-                      <a href="#"
-                        >No Matter How Dire the Coronavirus Threat, Fear Is Not
-                        the Way Out</a
-                      >
-                      <div class="opinion-by">BY ZACHARY KARABELL</div>
-                    </div>
-                  </li>
-                  <li class="d-flex">
-                    <div class="headshot">
-                      <a href="#">
-                        <img
-                          src="assets/img/MockupImages/mockup-img-032.png"
-                          alt="Caroline"
-                        />
-                      </a>
-                    </div>
-                    <div class="opinion-info">
-                      <a href="#"
-                        >No Matter How Dire the Coronavirus Threat, Fear Is Not
-                        the Way Out</a
-                      >
-                      <div class="opinion-by">BY ZACHARY KARABELL</div>
-                    </div>
-                  </li>
-                  <li class="d-flex">
-                    <div class="headshot">
-                      <a href="#">
-                        <img
-                          src="assets/img/MockupImages/mockup-img-033.png"
-                          alt="Caroline"
-                        />
-                      </a>
-                    </div>
-                    <div class="opinion-info">
-                      <a href="#"
-                        >No Matter How Dire the Coronavirus Threat, Fear Is Not
-                        the Way Out</a
-                      >
-                      <div class="opinion-by">BY ZACHARY KARABELL</div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+                  </div>
+                </div>
             </div>
+        </div>
+        <div class="right-publicity-container order-lg-6 order-md-6 order-sm-6 col-lg-3 col-md-12">
             <div class="left-publicity d-md-block not-d d-sm-none">
               <div class="article-wrap">
                 <div class="category">
@@ -905,103 +898,106 @@
               </div>
             </div>
             <div class="newsletter-subscribe">
-              <div class="newsletter-subscribe-title d-flex align-items-center">
-                <span class="newsweek-icon"></span>
-                Start your day with our top 5 articles
-              </div>
-              <form action="submit" class="newsletter-form">
-                <input
-                  type="text"
-                  class="form-input"
-                  placeholder="Email address"
-                />
-                <input type="submit" class="form-submit" value="Free Sign Up" />
-              </form>
-            </div>
-            <div class="left-publicity d-md-block not-d d-sm-none">
-              <div class="article-wrap">
-                <div class="category">
-                  <a href="#">SPONSORED INSIGHT</a>
+                <div class="newsletter-subscribe-title d-flex align-items-center">
+                    <span class="newsweek-icon"></span>
+                    Start your day with our top 5 articles
                 </div>
-                <div class="featured-article-img sponsor7"></div>
-              </div>
-              <div class="publicity-info">
-                <h3>
-                  <a href="#">
-                    Iran Wants to Partner with Iraq to Expel U.S. from Middle
-                    East
-                  </a>
-                </h3>
-                <div class="summary">
-                  As the U.S. and Israel suggest Iran is backing down, the
-                  Islamic Republic is looking to boost its regional ties.
+                <form action="submit" class="newsletter-form">
+                    <input
+                    type="text"
+                    class="form-input"
+                    placeholder="Email address"
+                    />
+                    <input type="submit" class="form-submit" value="Free Sign Up" />
+                </form>
                 </div>
-              </div>
-            </div>
-            <div class="left-publicity d-md-block not-d d-sm-none">
-              <div class="article-wrap">
-                <div class="category">
-                  <a href="#">SPONSORED INSIGHT</a>
+                <div class="right-publicity-container">
+                <div class="left-publicity d-md-block not-d d-sm-none">
+                    <div class="article-wrap">
+                    <div class="category">
+                        <a href="#">SPONSORED INSIGHT</a>
+                    </div>
+                    <div class="featured-article-img sponsor7"></div>
+                    </div>
+                    <div class="publicity-info">
+                    <h3>
+                        <a href="#">
+                        Iran Wants to Partner with Iraq to Expel U.S. from Middle
+                        East
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        As the U.S. and Israel suggest Iran is backing down, the
+                        Islamic Republic is looking to boost its regional ties.
+                    </div>
+                    </div>
                 </div>
-                <div class="featured-article-img sponsor8"></div>
-              </div>
-              <div class="publicity-info">
-                <h3>
-                  <a href="#">
-                    Iran Wants to Partner with Iraq to Expel U.S. from Middle
-                    East
-                  </a>
-                </h3>
-                <div class="summary">
-                  As the U.S. and Israel suggest Iran is backing down, the
-                  Islamic Republic is looking to boost its regional ties.
+                <div class="left-publicity d-md-block not-d d-sm-none">
+                    <div class="article-wrap">
+                    <div class="category">
+                        <a href="#">SPONSORED INSIGHT</a>
+                    </div>
+                    <div class="featured-article-img sponsor8"></div>
+                    </div>
+                    <div class="publicity-info">
+                    <h3>
+                        <a href="#">
+                        Iran Wants to Partner with Iraq to Expel U.S. from Middle
+                        East
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        As the U.S. and Israel suggest Iran is backing down, the
+                        Islamic Republic is looking to boost its regional ties.
+                    </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="left-publicity d-md-block not-d d-sm-none">
-              <div class="article-wrap">
-                <div class="category">
-                  <a href="#">SPONSORED INSIGHT</a>
+                <div class="left-publicity d-md-block not-d d-sm-none">
+                    <div class="article-wrap">
+                    <div class="category">
+                        <a href="#">SPONSORED INSIGHT</a>
+                    </div>
+                    <div class="featured-article-img sponsor9"></div>
+                    </div>
+                    <div class="publicity-info">
+                    <h3>
+                        <a href="#">
+                        Iran Wants to Partner with Iraq to Expel U.S. from Middle
+                        East
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        As the U.S. and Israel suggest Iran is backing down, the
+                        Islamic Republic is looking to boost its regional ties.
+                    </div>
+                    </div>
                 </div>
-                <div class="featured-article-img sponsor9"></div>
-              </div>
-              <div class="publicity-info">
-                <h3>
-                  <a href="#">
-                    Iran Wants to Partner with Iraq to Expel U.S. from Middle
-                    East
-                  </a>
-                </h3>
-                <div class="summary">
-                  As the U.S. and Israel suggest Iran is backing down, the
-                  Islamic Republic is looking to boost its regional ties.
+                <div class="left-publicity d-md-block not-d d-sm-none">
+                    <div class="article-wrap">
+                    <div class="category">
+                        <a href="#">SPONSORED INSIGHT</a>
+                    </div>
+                    <div class="featured-article-img sponsor10"></div>
+                    </div>
+                    <div class="publicity-info">
+                    <h3>
+                        <a href="#">
+                        Iran Wants to Partner with Iraq to Expel U.S. from Middle
+                        East
+                        </a>
+                    </h3>
+                    <div class="summary">
+                        As the U.S. and Israel suggest Iran is backing down, the
+                        Islamic Republic is looking to boost its regional ties.
+                    </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="left-publicity d-md-block not-d d-sm-none">
-              <div class="article-wrap">
-                <div class="category">
-                  <a href="#">SPONSORED INSIGHT</a>
-                </div>
-                <div class="featured-article-img sponsor10"></div>
-              </div>
-              <div class="publicity-info">
-                <h3>
-                  <a href="#">
-                    Iran Wants to Partner with Iraq to Expel U.S. from Middle
-                    East
-                  </a>
-                </h3>
-                <div class="summary">
-                  As the U.S. and Israel suggest Iran is backing down, the
-                  Islamic Republic is looking to boost its regional ties.
-                </div>
-              </div>
-            </div>
-          </div>
+                </div>     
         </div>
-      </div>
-      <!-- Bottom Section -->
+
+    </div>
+    <!-- Bottom Section -->
+    <div class="main container-fluid">
       <div class="bottom-section">
         <div class="in-the-magazine">
           <div
