@@ -266,11 +266,13 @@ i {
 .featured-stories {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   padding-bottom: 11px;
+  padding-top: 70px;
 }
 
 .sticky-container {
   position: sticky;
   top: 0;
+  padding-top: 70px;
 }
 
 .main-col1 {
@@ -954,19 +956,6 @@ footer .container-fluid {
 /* ------ MEDIA QUERY JUMPS AT 992px and 768px------ */
 
 @media screen and (max-width: 991px) {
-  .sticky-container,
-  .featured-stories {
-    padding-top: 70px;
-  }
-
-  .main-col1 {
-    width: 100%;
-  }
-
-  .main-col2 {
-    width: 100%;
-  }
-
   .not-d {
     max-width: 330px;
     margin-left: auto;
