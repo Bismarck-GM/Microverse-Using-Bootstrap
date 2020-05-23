@@ -961,7 +961,12 @@ footer .container-fluid {
 
 @media screen and (max-width: 991px) {
   .main {
-    padding-top: 150px;
+    padding-top: 30px;
+  }
+
+  .sticky-container,
+  .featured-stories {
+    padding-top: 70px;
   }
 
   .main-col1 {
