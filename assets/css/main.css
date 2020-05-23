@@ -123,7 +123,7 @@ i {
 
 .header-top {
   height: 50px;
-  padding: 0px 12px 11px;
+  padding: 0 12px 11px;
   margin: 0;
   background-color: #f72210;
 }
@@ -188,7 +188,8 @@ i {
   content: "";
   display: inline-block;
   margin-left: 10px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
+  background:
+    url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
     center / contain no-repeat;
 }
 
