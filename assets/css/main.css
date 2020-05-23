@@ -261,7 +261,6 @@ i {
 
 .main {
   background-color: white;
-  padding-top: 20px;
 }
 
 .featured-stories {
@@ -989,22 +988,6 @@ footer .container-fluid {
   header .container {
     position: fixed;
     z-index: 99;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .article-col1 {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    order: 1;
-  }
-
-  .article-col2 {
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    order: 2;
   }
 }
 
