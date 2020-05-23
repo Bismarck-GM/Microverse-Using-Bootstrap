@@ -189,17 +189,14 @@ i {
 }
 
 .header-middle {
-  transform: translate(-50%, 0);
-  position: absolute;
+  position: relative;
   z-index: 3;
-  top: 0;
-  left: 50%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  top: -44px;
+  left: 2%;
 }
 
 .header-middle img {
-  height: 60px;
+  height: 20px;
   margin: 10px auto 0;
 }
 
@@ -1005,19 +1002,6 @@ footer .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
     order: 2;
-  }
-
-  .header-top {
-    height: 65px;
-  }
-
-  .header-middle {
-    left: 20px;
-    transform: none;
-  }
-
-  .header-middle img {
-    height: 25px;
   }
 }
 
