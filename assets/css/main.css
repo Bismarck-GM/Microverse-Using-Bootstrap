@@ -960,18 +960,6 @@ footer .container-fluid {
     margin-right: auto;
   }
 
-  .article-col1 {
-    width: 45%;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .article-col2 {
-    width: 55%;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   header .container {
     position: fixed;
     z-index: 99;
