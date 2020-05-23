@@ -136,6 +136,17 @@ i {
   color: white;
 }
 
+.header-top i {
+  font-size: 40px;
+  margin: 1% 1% 1% 4%;
+  color: #fb9a94;
+}
+
+.header-top i:first-child {
+  font-size: 30px;
+  margin-right: 2%;
+}
+
 .weather {
   position: absolute;
   top: 12px;

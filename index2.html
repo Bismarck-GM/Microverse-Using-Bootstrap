@@ -38,14 +38,19 @@
           <div
             class="col d-flex justify-content-end align-items-end btn-header"
           >
-            <button class="btn btn-login">
+            <i class="fas fa-user d-md-none"></i>
+            <button class="btn btn-login d-none d-md-block">
               Login
             </button>
-            <button class="btn btn-subscribe">
+            <button class="btn btn-subscribe d-none d-md-block">
               SUBSCRIBE
             </button>
+            <button class="btn bg-warning text-dark btn-subscribe d-md-none">
+                Add free trial
+              </button>
+            <i class="fas fa-bars d-lg-none"></i>
           </div>
-          <i class="fas fa-bars d-lg-none justify-content-end"></i>
+          
           <div class="weather d-none d-lg-flex">
             <img
               src="./assets/img/Weather-IMG.png"
@@ -66,7 +71,7 @@
           <img src="./assets/img/newsweek-logo.svg" alt="" />
         </div>
 
-        <nav class="header-bottom d-sm-none d-lg-block position-relative">
+        <nav class="header-bottom d-none d-lg-block position-relative">
           <div class="flex justify-content-center">
             <ul class="nav">
               <li class="nav-item">
