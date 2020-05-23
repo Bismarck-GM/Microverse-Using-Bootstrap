@@ -137,14 +137,9 @@ i {
 }
 
 .header-top i {
-  font-size: 40px;
-  margin: 1% 1% 1% 4%;
-  color: #fb9a94;
-}
-
-.header-top i:first-child {
   font-size: 30px;
-  margin-right: 2%;
+  margin: 1% 2% 1% 4%;
+  color: #fb9a94;
 }
 
 .weather {
@@ -960,10 +955,6 @@ footer .container-fluid {
 /* ------ MEDIA QUERY JUMPS AT 992px and 768px------ */
 
 @media screen and (max-width: 991px) {
-  .main {
-    padding-top: 30px;
-  }
-
   .sticky-container,
   .featured-stories {
     padding-top: 70px;
@@ -1002,10 +993,6 @@ footer .container-fluid {
 }
 
 @media screen and (max-width: 767px) {
-  .main {
-    padding-top: 90px;
-  }
-
   .article-col1 {
     width: 100%;
     padding-left: 15px;
