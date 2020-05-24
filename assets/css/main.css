@@ -268,10 +268,18 @@ i {
   padding-top: 70px;
 }
 
+.top-story {
+  background-image: url(../img/USA-FLAG.png);
+  background-size: 90% 55%;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+}
+
 .sticky-container {
   position: sticky;
   top: 0;
   padding-top: 70px;
+  background-color: white;
 }
 
 .main-col1 {
