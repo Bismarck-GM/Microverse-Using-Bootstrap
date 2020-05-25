@@ -188,7 +188,8 @@ i {
   content: "";
   display: inline-block;
   margin-left: 10px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
+  background:
+    url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
     center / contain no-repeat;
 }
 
