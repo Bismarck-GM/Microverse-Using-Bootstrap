@@ -188,8 +188,7 @@ i {
   content: "";
   display: inline-block;
   margin-left: 10px;
-  background:
-    url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg)
     center / contain no-repeat;
 }
 
@@ -869,7 +868,6 @@ i {
   flex: 1;
   padding: 30px;
   border: 1px solid #ebebeb;
-  border-left-width: 0;
   height: 100%;
 }
 
@@ -1003,6 +1001,10 @@ footer .container-fluid {
   .featured-stories,
   .opinion-section {
     padding-top: 20px;
+  }
+
+  .newsletter-container .subscribe-info {
+    border-left-width: 0;
   }
 }
 
