@@ -1,57 +1,32 @@
-# Project Name
+# Using Bootstrap
 
-> One paragraph statement about the project.
+> Build a replica of the news site Newsweek.com using the Bootstrap framework.
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/img/screenshot-responsive.png)
 
-Additional description about the project and its features.
+Original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Bootstrap v4.1
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+To check how the page works follow [this](https://raw.githack.com/Bismarck-GM/Microverse-Using-Bootstrap/development/index.html) link!
 
 ### Usage
 
-### Run tests
+If you want to run it locally just download all the files and open index.html
 
-### Deployment
+## Author
 
+👤 **Gerónimo Morisot**
 
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Bismarck-GM](https://github.com/Bismarck-GM)
+- Twitter: [@Rewritablee](https://twitter.com/Rewritablee)
+- Linkedin: [Gerónimo Morisot](https://linkedin.com/in/geronimomorisot)
 
 ## 🤝 Contributing
 
@@ -62,12 +37,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
